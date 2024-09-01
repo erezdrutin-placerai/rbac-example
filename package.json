@@ -1,5 +1,5 @@
 {
-  "name": "management-ui",
+  "name": "casl-rbac-example",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@casl/ability": "^6.7.1",
+    "@casl/prisma": "^1.4.1",
+    "@casl/react": "^4.0.0",
+    "@prisma/client": "^5.19.0",
+    "next": "14.2.7",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.7"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
+    "@types/node": "^20.16.2",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.7"
+    "eslint-config-next": "14.2.7",
+    "prisma": "^5.19.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
   }
 }

@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "66d45c2d33e6c1f6d3ae20d4"
+  },
+  "title": "Admin Post",
+  "published": true,
+  "authorId": {
+    "$oid": "66d45c0f33e6c1f6d3ae20d2"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d45c4a33e6c1f6d3ae20d6"
+  },
+  "title": "User Post",
+  "published": true,
+  "authorId": {
+    "$oid": "66d45bf233e6c1f6d3ae20d1"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d45c5333e6c1f6d3ae20d7"
+  },
+  "title": "Draft Post",
+  "published": false,
+  "authorId": {
+    "$oid": "66d45bf233e6c1f6d3ae20d1"
+  }
+}]
